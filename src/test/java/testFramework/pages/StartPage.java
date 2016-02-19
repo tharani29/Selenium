@@ -25,7 +25,7 @@ public class StartPage extends BasePage {
 		PAGE_URL = "/someUrl";
 	}
 
-	@FindBy (xpath = "//input[contains(@name, 'firstname')])
+	@FindBy (xpath = "//input[contains(@name, 'firstname')]")
 	private WebElement enterFirstNameTextField;
 
 	@FindBy (xpath = "//input[contains(@name, 'lastname')]")
